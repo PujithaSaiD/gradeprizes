@@ -1,0 +1,16 @@
+n=float(input())
+if(n>=90):
+    print("A")
+    print("Laptop")
+elif(n>=80 and n<90):
+    print("B")
+    print("Smartwatch")
+elif(n>=70 and n<80):
+    print("C")
+    print("Bluetooth Speaker")
+elif(n>=60 and n<70):
+    print("D")
+    print("Headphones")
+else:
+    print("F")
+    print("No Prize")
